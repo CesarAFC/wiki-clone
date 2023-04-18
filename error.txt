@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 40px;
+}
+
+main div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main div img {
+    height: 32px;
+    width: 176px;
+    margin-top: 10px;
+}
+main div p {
+    font-family: Linux Libertine,Georgia,Times,serif;
+    font-size: 15px;
+    padding-top: 9px;
+}
+
+.languages {
+    width: 100vw;
+    height: 325px;
+    margin-top: 18px;
+}
+
+.lang1, .lang2 .lang3, .lang4, .lang5 {
+    display: flex;
+} 
+
+.languages a {
+    text-decoration: none;
+    color: #3366cc;
+    font-family: BlinkMacSystemFont;
+    font-weight: 700;
+    font-size: 16px;
+}
+.languages p {
+    color: #54595d;
+    font-family: BlinkMacSystemFont;
+    font-size: 13px;
+}
+
+.languages div img {
+    width: 200px;
+    height: 180px;
+    z-index: 5;
+}
+.container-1 div{
+    margin: 10px 0;
+    width: 156px;
+    height: 45.3px;
+}
+.container-2 div{
+    margin: 10px 0;
+    width: 156px;
+    height: 45.3px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 40px;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul {
+    display: inline-block;
+}
